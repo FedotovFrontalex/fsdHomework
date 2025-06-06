@@ -7,7 +7,8 @@ import {
     HelpPage,
     ProfilePage,
     SkillPage,
-    ReferralPage
+    ReferralPage,
+    Home,
 } from '../../pages';
 import { Layout } from '../layout';
 
@@ -16,6 +17,7 @@ export const routes = createBrowserRouter([
         path: '/',
         Component: Layout,
         children: [
+            { index: true, Component: Home },
             { path: 'courses', Component: CoursesPage },
             { path: 'skill', Component: SkillPage },
             { path: 'club', Component: ClubPage },
