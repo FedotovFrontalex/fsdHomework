@@ -1,3 +1,1 @@
-export { ProfilePage } from './ProfilePage'
-export { EditProfilePage } from './EditProfilePage';
-export { ReferralPage } from './ReferralPage';
+export { ProfilePage, EditProfilePage, ReferralPage } from './ui';

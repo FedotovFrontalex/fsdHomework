@@ -1,2 +1,1 @@
-export { CommunityPage } from './CommunityPage';
-export { ClubPage } from './ClubPage';
+export { ClubPage, CommunityPage } from './ui';
