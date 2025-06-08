@@ -11,3 +11,10 @@ export {
     Tag,
     Rating, 
 } from './ui';
+
+export { http } from './api';
+
+export { EnvConfig } from './config';
+export type { EnvConfigType } from './config';
+
+export { ROUTES } from './routes';
