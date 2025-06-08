@@ -1,0 +1,1 @@
+export { EnvConfig, EnvConfigType} from './env';
