@@ -1,1 +1,2 @@
-export { EnvConfig, EnvConfigType} from './env';
+export { EnvConfig } from './env';
+export type { EnvConfigType } from './env';
