@@ -1,0 +1,18 @@
+:root {
+    --gray: #AFB2BF;
+    --gray-stroke: #4D5064;
+    --gray-light: #DAD9DE;
+    --gray-dark: #1E1F29;
+
+    --black: #16171D;
+    --black-total: #101114;
+
+    --violet: #6C38CC;
+    --violet-dark: #2E2D3D;
+    --violet-link: #A97BFF;
+    --violet-hover: #452481;
+
+    --yellow: #FDF41A;
+
+    --grad1: linear-gradient(to right, #D77BE5, 35% #BE63E5, #6C38CC);
+}
