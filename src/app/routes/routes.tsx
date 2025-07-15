@@ -1,15 +1,10 @@
 import { createBrowserRouter } from "react-router";
-import {
-    ClubPage,
-    CommunityPage,
-    CoursesPage,
-    EditProfilePage,
-    HelpPage,
-    ProfilePage,
-    SkillPage,
-    ReferralPage,
-    HomePage,
-} from '../../pages';
+import { ReferralPage, EditProfilePage, ProfilePage } from '@pages/user';
+import { HomePage } from '@pages/homePage';
+import { HelpPage } from '@pages/help';
+import { CoursesPage } from '@pages/course';
+import { ClubPage, CommunityPage } from "@pages/community";
+import { SkillPage } from '@pages/skill';
 import { Layout } from '../layout';
 
 export const routes = createBrowserRouter([
